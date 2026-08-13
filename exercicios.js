@@ -30,8 +30,7 @@
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
 let C = 2
-console.log( F = C * 9/5 + 32)
-
+console.log(F = C * 9/5 + 32)
 
 
 // EXERCÍCIO 3 - Par ou ímpar
