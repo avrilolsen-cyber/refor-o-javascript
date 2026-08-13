@@ -19,12 +19,7 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
-let n1 = 20;
-let n2 = 20;
-console.log(soma = n1 + n2)
-console.log(subtracao = n1 - n2)
-console.log(multiplicacao = n1 * n2)
-console.log(divisao = n1 / n2 )
+
 
 
 
@@ -34,7 +29,8 @@ console.log(divisao = n1 / n2 )
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
-
+let C = 2
+console.log( F = C * 9/5 + 32)
 
 
 
