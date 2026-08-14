@@ -38,13 +38,7 @@
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
-let num = 10
-if(num % 2 === 0){
-    console.log("é par")
-}
-else{
-    console.log("é impar")
-};
+
 
 
 
@@ -54,6 +48,25 @@ else{
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+const aluno = [
+    {nome:"murilo", notas: [10,5,4]},
+    {nome:"isabela", notas:[10,10,10]},
+    {nome:"Avril", notas:[10,9,10]}
+];
+ for(let i = 0 ; i < 3 ; i++); {
+    let notas = aluno[0].notas.length;
+    let soma = notas + notas + notas;
+    let media = soma / aluno[0].notas.length;
+
+    let situacao = "";
+
+if(media >= 7){
+    situacao = "Aprovado";
+}else{
+    situacao = "reprovado"
+}
+console.log(situacao)
+ }
 
 
 
