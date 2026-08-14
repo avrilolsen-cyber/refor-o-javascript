@@ -48,25 +48,7 @@
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
-const aluno = [
-    {nome:"murilo", notas: [10,5,4]},
-    {nome:"isabela", notas:[10,10,10]},
-    {nome:"Avril", notas:[10,9,10]}
-];
- for(let i = 0 ; i < 3 ; i++); {
-    let notas = aluno[0].notas.length;
-    let soma = notas + notas + notas;
-    let media = soma / aluno[0].notas.length;
 
-    let situacao = "";
-
-if(media >= 7){
-    situacao = "Aprovado";
-}else{
-    situacao = "reprovado"
-}
-console.log(situacao)
- }
 
 
 
@@ -81,7 +63,12 @@ console.log(situacao)
 // Se for >= 18, mostre "Maior de idade".
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
-
+let idade = 12
+if(idade >= 18){
+console.log("maior de idade")
+}else{
+    console.log("menor de idade")
+}
 
 
 
