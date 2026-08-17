@@ -19,7 +19,12 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
-
+let n1 = 20;
+let n2 = 20;
+console.log(soma = n1 + n2)
+console.log(subtracao = n1 - n2)
+console.log(multiplicacao = n1 * n2)
+console.log(divisao = n1 / n2 )
 
 
 
@@ -29,6 +34,10 @@
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
+let C = 2
+console.log( F = C * 9/5 + 32)
+
+console.log(F = C * 9/5 + 32)
 
 
 
@@ -38,7 +47,13 @@
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
-
+let num = 10
+if(num % 2 === 0){
+    console.log("é par")
+}
+else{
+    console.log("é impar")
+};
 
 
 
@@ -48,8 +63,25 @@
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+const aluno = [
+    {nome:"murilo", notas: [10,5,4]},
+    {nome:"isabela", notas:[10,10,10]},
+    {nome:"Avril", notas:[10,9,10]}
+];
+ for(let i = 0 ; i < 3 ; i++); {
+    let notas = aluno[0].notas.length;
+    let soma = notas + notas + notas;
+    let media = soma / aluno[0].notas.length;
 
+    let situacao = "";
 
+if(media >= 7){
+    situacao = "Aprovado";
+}else{
+    situacao = "reprovado"
+}
+console.log(situacao)
+ };
 
 
 
@@ -68,7 +100,7 @@ if(idade >= 18){
 console.log("maior de idade")
 }else{
     console.log("menor de idade")
-}
+};
 
 
 
@@ -81,6 +113,23 @@ console.log("maior de idade")
 //   25 até 29.9    = "Sobrepeso"
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
+let peso = 50;
+let altura = 1.53;
+
+let imc = peso / (altura*altura)
+
+console.log("seu imc é:" +imc.toFixed(2));
+
+if (imc < 18.5){
+    console.log("abaixo do peso");
+}else if (imc >= 18.5 && imc <= 24.9){
+    console.log("Peso normal");
+}else if (imc >= 25 && imc  <= 29.9){
+    console.log("sobrepeso");
+}else{
+    console.log("obesidade");
+};
+
 
 
 
