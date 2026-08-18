@@ -169,10 +169,20 @@ if(suaJogada === computador){
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
+let minha = 7
+ console.log("sua nota é:"+ minha);
 
-
-
-
+if(minha >= 9 && minha <= 10){
+    console.log("A");
+}else if(minha >= 7 && minha <= 8){
+    console.log("B");
+}else if(minha >= 5 && minha <= 6){
+    console.log("C");
+}else if( minha >= 3 && minha <= 4){
+    console.log("D");
+}else{
+    console.log("F");
+}
 // ============================================================
 //  BLOCO 3 - LOOPS (for, while)
 // ============================================================
