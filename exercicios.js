@@ -131,9 +131,6 @@ if (imc < 18.5){
 };
 
 
-
-
-
 // EXERCÍCIO 7 - Pedra, papel e tesoura
 // Crie uma variável com sua jogada ("pedra", "papel" ou "tesoura").
 // Faça o computador escolher aleatoriamente uma jogada.
@@ -142,7 +139,24 @@ if (imc < 18.5){
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
+let suaJogada = 'pedra';
+let opcoes = ['pedra','papel','tesoura'];
+let computador = opcoes[Math.floor(Math.random()*3)]
 
+console.log(`voce:${suaJogada} vs Computador:${computador}`);
+
+let regras = {
+    pedra: "tesoura",
+    papel:"pedra",
+    tesoura:"Papel",
+};
+if(suaJogada === computador){
+    console.log("empate");
+}else if(regras[suaJogada] === computador){
+    console.log("VOCE GANHOU!");
+} else{
+    console.log("O COMPUTADOR GANHOU");
+}
 
 
 
